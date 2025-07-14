@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<gamedata>
+	<map file="./data/pang_map.tmx" background="./data/pang_background.png"/>
+	<player x="464" y="576">
+		<animatedsprite frames="4">
+			<idle sprite="./data/player_idle.png"/>
+			<right sprite="./data/player_right_anim.png"/>
+			<left sprite="./data/player_left_anim.png"/>
+		</animatedsprite>
+	</player>
+	<enemyspawner x="450" y="0" period="5">
+		<enemytype sprite="./data/red_balloon_big.png" xvelocity="100" bounceforce="325"/>
+		<enemytype sprite="./data/red_balloon_regular.png" xvelocity="70" bounceforce="275"/>
+		<enemytype sprite="./data/red_balloon_small.png" xvelocity="40" bounceforce="225"/>
+		<enemytype sprite="./data/green_balloon_big.png" xvelocity="-100" bounceforce="325"/>
+		<enemytype sprite="./data/green_balloon_regular.png" xvelocity="-70" bounceforce="275"/>
+		<enemytype sprite="./data/green_balloon_small.png" xvelocity="-40" bounceforce="225"/>
+		<enemytype sprite="./data/blue_balloon_big.png" xvelocity="50" bounceforce="325"/>
+		<enemytype sprite="./data/blue_balloon_regular.png" xvelocity="-50" bounceforce="275"/>
+		<enemytype sprite="./data/blue_balloon_small.png" xvelocity="30" bounceforce="225"/>
+	</enemyspawner>
+</gamedata>
